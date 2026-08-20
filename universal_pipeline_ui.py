@@ -1167,7 +1167,7 @@ def render_app() -> None:
     st.set_page_config(page_title="DNA Data Storage System — No Compression", page_icon="🧬", layout="wide")
     _apply_style()
     st.title("DNA Data Storage System")
-    st.caption("Whole file/container → rule-based DNA → strand design → sequencing/FASTQ/consensus → recovered file")
+    # st.caption("Whole file/container → rule-based DNA → strand design → sequencing/FASTQ/consensus → recovered file")
     render_step_1_input()
     render_step_3_encoding()
     render_step_4_strand_design()
